@@ -1,14 +1,18 @@
 *{
 	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 	
 }
-
+body
+{
+	width: 100%;
+}
 .nav{
     
     
 	height: 80px;
-	
+	width: 100%;
 	background-color:#004768; 
 }
 
@@ -50,25 +54,26 @@
   
 	
 }
+
 .backgrou
 {
 	
 	
-position: fixed;
+
 	height: 100vh;
 	width: 100%;
 	background-color: #000;
 	opacity: 0.8;
 
 }
-p{
+p.pppp1{
 	
 	
 	color: white;
 	font-size: 30px;
 
 	margin-top:20% ;
-	
+	margin-left: 27%;
 	
 	
 }
@@ -91,15 +96,115 @@ p.pppp
 		
 
 }
+/*.social-icons i
+{
+	color: #f3f3f3;
+	font-size: 30px;
+	line-height: 100%;
+}*/
 .img-menu
 {
-	  margin-top: 35%;
-	  margin-left: 20%;
+	  margin-top: 32%;
+	  margin-left: 24%;
 }
-a img
+.img-menu a{
+   font-size: 20px;
+	margin: 25px;
+}
+.squer
 {
-	z-index: 2;
+	clear: both;
+	width: 80%;
+	margin: 0 auto;
+	
+	margin-top: 50px;
+	
+	
 }
+.squer-inner
+{
+	width: 25%;
+	height:  200px;
+	
+	background-color: #004768;
+	float: left;
+
+}
+
+p.lorem
+{
+	margin-top: 45%;
+	width: 50%;
+}
+
+.squer1
+{
+	background-color: tomato;
+}
+
+.squer2
+{
+	background-color: wheat;
+}
+
+.squer3
+{
+	background-color: slategrey;
+}
+.squer4
+{
+	background-color: lightgray;
+}
+
+.squer5
+{
+	background-color: rgb(31, 186, 233);
+}
+.squer6
+{
+	background-color: tan;
+}
+.squer7
+{
+	background-color: black;
+}
+.squer8
+{
+	background-color: lightgreen;
+}
+.squer img
+{
+    margin-top: 30%;
+	
+
+}
+
+.need
+{
+	clear: both;
+	margin-top: 300px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.me
+{
+	height: 50px;
+	width: 150px;
+	font-size: 17px; 
+	background-color: rgb(119, 176, 190);
+	color: #fff;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* For mobile phones */
@@ -110,7 +215,7 @@ a img
 
 
 
-}
+
 @media only screen and (min-width: 600px){
 
 /****************** Grid system **************/
