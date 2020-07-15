@@ -195,13 +195,76 @@ p.lorem
 	background-color: rgb(119, 176, 190);
 	color: #fff;
 	border: none;
+	margin-bottom: 2%;
+	margin-top: 2%;
 }
 
 
+.name
+{
 
+}
+.formm
+{
+	background-color: #eee;
+	width: 80%;
+	margin: 0 auto;
+}
 
+fieldset
+{
+	border: none;
+	width: 90%;
+	margin: 0 auto;
+	
+	
+}
 
+legend
+{
+	font-size: 30px;
+	
+	margin-bottom: 20px;
+	
+}
+.please
+{
+	font-size: 20px;
+	color: rgb(145, 143, 143);
+}
 
+.name{
+    float: left;
+	width: 50%;
+
+}
+
+.name1
+{
+	
+	width: 40%;
+	height: 35px;
+}
+
+.name2
+{
+	margin-left: 9.6%;
+}
+
+.emaila
+{
+	width: 90%;
+	height: 35px;
+}
+
+.submitt
+{
+	background-color: rgb(11, 138, 138);
+	color: #fff;
+	width: 15%;
+	height: 30px;
+	border: none;
+}
 
 
 
